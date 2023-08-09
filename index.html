@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke generator</title>
+
+  <link rel="stylesheet" href="joke.css">
+
+</head>
+<body>
+
+<div class="container"> 
+    <h1 class="heading">Keep Laughing!😁</h1>
+    <p class="joke" id="joke">
+        Random Joke
+    </p>
+    <button onclick="getJoke()" class="btn" id="btn">Get Your Joke</button>
+    <br>
+    <br>
+    <select class="category" id="apiOption">
+      <option value="null">Category</option>
+      <option value="option1">Humours Jokes</option>
+      <option value="option2">Laughter Jokes</option>
+      <option value="option3">Funny Jokes</option>
+    </select>
+</div>
+
+
+
+<script src="api.js"></script>
+
+</body>
+</html>

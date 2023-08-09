@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background: url(halloween-banner-party-balloons-with-funny-faces_295303-1356.avif);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color:#343434;
+    padding:20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .6);
+    border-radius: 30px;
+    width:50%;
+    text-align: center;
+    color:#4169e1;
+}
+
+.heading{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: cursive;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, .3);
+    letter-spacing: 7px;
+}
+
+.joke{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+    color: white;
+}
+
+.btn{
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+    margin-left:0px;
+    background-color:#800080;
+    border-color: rgba(255, 255, 255, .6);
+    text-transform:lowercase;
+    width: 400px;
+    color: black;
+}
+.btn:hover{
+    background-color:white;
+    transition: all .4s ease;
+}
+
+.category{
+    background-color:white;
+    padding: 10px;
+    margin-left:0;
+    border-radius: 4px;
+    width: 250px;
+    text-align: center;
+    font-size: 17px;
+    color:black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.category option{
+    background-color: rgb(219, 255, 184);
+}
+
+.category option:checked{
+    background-color: rgb(121, 222, 177);
+}
+
+@media (max-width:1070px){
+    .container{
+        justify-content: center;
+    }
+    .btn{
+        justify-content: center;
+        margin-bottom: .6rem;
+        margin-left: 10px;
+    }
+    .category{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:768px){
+    .category{
+        width: 150px;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .btn{
+        width: 150px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 1px;
+        height: 15px;
+        justify-content: center;
+        margin-top: 50%;
+    }
+    .container{
+        width: 80%;
+        /* height: 90vh; */
+    }
+    .container p{
+        font-size: 22px;
+        margin-top: 5rem;   
+    }
+    .container h1{
+        font-size: 30px;
+    }
+}
+
